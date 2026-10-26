@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1772209828"/>
+  <Params Value="-MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/louis/Downloads/Programming/Lazarus/Par-Impar/lib/x86_64-linux -Fu/home/louis/Downloads/Programming/Lazarus/Par-Impar/ -Fu/home/louis/.lazarus/lib/units/x86_64-linux/qt5 -Fu/home/louis/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/home/louis/.lazarus/lib/FreeTypeLaz/lib/x86_64-linux -Fu/usr/lib/lazarus/4.4/components/lazutils/lib/x86_64-linux -Fu/usr/lib/lazarus/4.4/packager/units/x86_64-linux -FU/home/louis/Downloads/Programming/Lazarus/Par-Impar/lib/x86_64-linux/ -FE/home/louis/Downloads/Programming/Lazarus/Par-Impar/ -o/home/louis/Downloads/Programming/Lazarus/Par-Impar/parimparProject -dLCL -dLCLqt5 parimparProject.lpr"/>
+</CONFIG>

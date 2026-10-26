@@ -1,0 +1,26 @@
+object frm1: Tfrm1
+  Left = 261
+  Height = 240
+  Top = 31
+  Width = 429
+  Caption = 'Hello World'
+  ClientHeight = 240
+  ClientWidth = 429
+  LCLVersion = '4.4.0.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 19
+    Top = 80
+    Width = 338
+    Caption = 'Clique no botão abaixo para aparecer a mensagem'
+  end
+  object Button1: TButton
+    Left = 128
+    Height = 57
+    Top = 120
+    Width = 136
+    Caption = 'Clique aqui'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+end

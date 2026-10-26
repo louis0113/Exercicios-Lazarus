@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="parimparProject.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="parimparunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frm1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="parimparUnit"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="29"/>
+        <CursorPos X="10" Y="42"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Nome/unitname.pas"/>
+        <ComponentName Value="frmName1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unitName"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19" Y="54"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="parimparunit.pas"/>
+        <Caret Line="46" Column="40" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="parimparunit.pas"/>
+        <Caret Line="42" Column="10" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="parimparunit.pas"/>
+        <Caret Line="40" Column="3" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="parimparunit.pas"/>
+        <Caret Line="41" Column="53" TopLine="30"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+    <HistoryLists>
+      <List Name="WorkingDirectory" Type="File" Count="1"/>
+      <List Name="LaunchingApplication" Type="File" Count="1"/>
+      <List Name="CommandLineParameters" Count="1"/>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>
