@@ -21,8 +21,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="parimparUnit"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="29"/>
-        <CursorPos X="10" Y="42"/>
+        <TopLine Value="30"/>
+        <CursorPos X="45" Y="45"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -60,10 +60,5 @@
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
-    <HistoryLists>
-      <List Name="WorkingDirectory" Type="File" Count="1"/>
-      <List Name="LaunchingApplication" Type="File" Count="1"/>
-      <List Name="CommandLineParameters" Count="1"/>
-    </HistoryLists>
   </ProjectSession>
 </CONFIG>

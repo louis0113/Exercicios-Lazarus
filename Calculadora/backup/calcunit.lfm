@@ -1,0 +1,192 @@
+object calcFrm: TcalcFrm
+  Left = 260
+  Height = 410
+  Top = 31
+  Width = 351
+  Caption = 'Calculadora'
+  ClientHeight = 410
+  ClientWidth = 351
+  LCLVersion = '4.4.0.0'
+  object pnl1: TPanel
+    Left = 32
+    Height = 360
+    Top = 24
+    Width = 296
+    ClientHeight = 360
+    ClientWidth = 296
+    TabOrder = 0
+    object nbtn1: TButton
+      Left = 32
+      Height = 25
+      Top = 136
+      Width = 40
+      Caption = '1'
+      TabOrder = 0
+      OnClick = nbtn1Click
+    end
+    object nbtn2: TButton
+      Left = 91
+      Height = 25
+      Top = 136
+      Width = 43
+      Caption = '2'
+      TabOrder = 1
+      OnClick = nbtn2Click
+    end
+    object nbtn3: TButton
+      Left = 149
+      Height = 25
+      Top = 136
+      Width = 43
+      Caption = '3'
+      TabOrder = 2
+      OnClick = nbtn3Click
+    end
+    object opbtn1: TButton
+      Left = 208
+      Height = 32
+      Top = 136
+      Width = 56
+      Caption = '+'
+      Font.Height = -15
+      Font.Name = 'Ubuntu Sans'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 3
+      OnClick = optbtn1Click
+    end
+    object opbtn2: TButton
+      Left = 208
+      Height = 33
+      Top = 184
+      Width = 56
+      Caption = '-'
+      TabOrder = 4
+      OnClick = optbtn2Click
+    end
+    object nbtn4: TButton
+      Left = 32
+      Height = 25
+      Top = 184
+      Width = 40
+      Caption = '4'
+      TabOrder = 5
+      OnClick = nbtn4Click
+    end
+    object nbtn5: TButton
+      Left = 91
+      Height = 25
+      Top = 184
+      Width = 40
+      Caption = '5'
+      TabOrder = 6
+      OnClick = nbtn5Click
+    end
+    object nbtn6: TButton
+      Left = 152
+      Height = 25
+      Top = 184
+      Width = 40
+      Caption = '6'
+      TabOrder = 7
+      OnClick = nbtn6Click
+    end
+    object nbtn7: TButton
+      Left = 32
+      Height = 25
+      Top = 232
+      Width = 40
+      Caption = '7'
+      TabOrder = 8
+      OnClick = nbtn7Click
+    end
+    object nbtn8: TButton
+      Left = 94
+      Height = 25
+      Top = 232
+      Width = 40
+      Caption = '8'
+      TabOrder = 9
+      OnClick = nbtn8Click
+    end
+    object nbtn9: TButton
+      Left = 152
+      Height = 25
+      Top = 232
+      Width = 40
+      Caption = '9'
+      TabOrder = 10
+      OnClick = nbtn9Click
+    end
+    object opbtn3: TButton
+      Left = 208
+      Height = 33
+      Top = 232
+      Width = 56
+      Caption = '*'
+      TabOrder = 11
+      OnClick = optbtn3Click
+    end
+    object opbtn4: TButton
+      Left = 208
+      Height = 33
+      Top = 280
+      Width = 56
+      Caption = '/'
+      TabOrder = 12
+      OnClick = optbtn4Click
+    end
+    object Panel1: TPanel
+      Left = 32
+      Height = 34
+      Top = 88
+      Width = 232
+      Alignment = taRightJustify
+      BidiMode = bdRightToLeft
+      ClientHeight = 34
+      ClientWidth = 232
+      ParentBidiMode = False
+      TabOrder = 13
+      object Label1: TLabel
+        Left = 8
+        Height = 1
+        Top = 8
+        Width = 1
+        Alignment = taRightJustify
+        BidiMode = bdRightToLeft
+        ParentBidiMode = False
+      end
+    end
+    object dobtn: TButton
+      Left = 32
+      Height = 41
+      Top = 272
+      Width = 96
+      Caption = 'Calcular'
+      TabOrder = 14
+      OnClick = dobtnClick
+    end
+    object nbtn0: TButton
+      Left = 144
+      Height = 41
+      Top = 272
+      Width = 48
+      Caption = '0'
+      TabOrder = 15
+      OnClick = nbtn0Click
+    end
+    object opbtn5: TButton
+      Left = 208
+      Height = 32
+      Top = 40
+      Width = 56
+      Caption = 'CE'
+      Font.Height = -15
+      Font.Name = 'Ubuntu Sans'
+      Font.Style = [fsItalic]
+      ParentFont = False
+      TabOrder = 16
+      OnClick = optbtn5Click
+    end
+  end
+end

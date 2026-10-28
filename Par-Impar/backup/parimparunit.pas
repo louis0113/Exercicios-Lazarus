@@ -25,7 +25,7 @@ type
 
 var
   frm1: Tfrm1;
-
+  number: Integer;
 implementation
 
 {$R *.lfm}
@@ -33,12 +33,12 @@ implementation
 { Tfrm1 }
 
 procedure Tfrm1.btn1Click(Sender: TObject);
-var
-  number: Integer;
+
 begin
   if not TryStrToInt(Trim(inp1.Text), number) then
   begin
     ShowMessage('Digite um número inteiro válido');
+    Exit;
   end;
 
   if number mod 2 = 0 then
