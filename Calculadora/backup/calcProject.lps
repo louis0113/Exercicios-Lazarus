@@ -11,7 +11,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="29"/>
       </Unit>
       <Unit>
         <Filename Value="calcunit.pas"/>
@@ -21,106 +21,14 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="calcUnit"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="166"/>
-        <CursorPos X="56" Y="183"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="192"/>
+        <CursorPos X="28" Y="199"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="26">
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="66" Column="29" TopLine="55"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="43" Column="35" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="63" Column="17" TopLine="51"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="74" Column="41" TopLine="54"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="67" Column="37" TopLine="55"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="64" Column="30" TopLine="57"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="75" Column="41" TopLine="61"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="44" Column="22" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="46" Column="25" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="166" Column="29" TopLine="148"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="175" Column="22" TopLine="162"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="177" Column="10" TopLine="162"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="175" Column="8" TopLine="162"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="170" Column="25" TopLine="160"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="169" Column="38" TopLine="159"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="172" Column="48" TopLine="159"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="169" Column="27" TopLine="159"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="71" Column="24" TopLine="63"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="72" Column="6" TopLine="62"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="78" TopLine="63"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="73" Column="4" TopLine="58"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="71" Column="6" TopLine="62"/>
-      </Position>
-      <Position>
-        <Filename Value="calcunit.pas"/>
-        <Caret Line="74" Column="20" TopLine="64"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="calcunit.pas"/>
         <Caret Line="69" Column="34" TopLine="64"/>
@@ -136,6 +44,110 @@
       <Position>
         <Filename Value="calcunit.pas"/>
         <Caret Line="74" Column="31" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="179" Column="33" TopLine="169"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="177" Column="33" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="203" Column="20" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="86" Column="33" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="83" Column="19" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="98" Column="20" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="62" Column="16" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="83" Column="30" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="60" Column="11" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="61" Column="14" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="60" Column="11" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="53" Column="31" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="214" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="207" Column="37" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="99" Column="14" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="62" Column="5" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="212" Column="104" TopLine="196"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="83" Column="18" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="212" Column="104" TopLine="196"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="210" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="211" Column="40" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="216" Column="25" TopLine="200"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="217" Column="29" TopLine="198"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="198" Column="34" TopLine="183"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="45" Column="5" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="calcunit.pas"/>
+        <Caret Line="197" Column="24" TopLine="186"/>
       </Position>
     </JumpHistory>
     <RunParams>

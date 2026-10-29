@@ -5,10 +5,17 @@ unit equacaoUnit;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls;
 
 type
+
+  { TfrmEquacao }
+
   TfrmEquacao = class(TForm)
+    Button1: TButton;
+    Edit1: TEdit;
+    Label1: TLabel;
+    procedure Button1Click(Sender: TObject);
   private
 
   public
@@ -21,6 +28,17 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TfrmEquacao }
+
+
+procedure TfrmEquacao.Button1Click(Sender: TObject);
+var
+  expression: String;
+begin
+        expression := Edit1.Text;
+        ShowMessage('Palavra: ' + expression);
+end;
 
 end.
 

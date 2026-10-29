@@ -13,6 +13,7 @@ type
 
   TcalcFrm = class(TForm)
     nbtn1: TButton;
+    nbtn10: TButton;
     nbtn8: TButton;
     nbtn9: TButton;
     opbtn3: TButton;
@@ -41,6 +42,7 @@ type
     procedure nbtn7Click (Sender: TObject);
     procedure nbtn8Click (Sender: TObject);
     procedure nbtn9Click (Sender: TObject);
+    procedure nbtn10Click (Sender: TObject);
     procedure optbtn1Click (Sender: TObject);
     procedure optbtn2Click (Sender: TObject);
     procedure optbtn3Click (Sender: TObject);
@@ -57,8 +59,10 @@ var
   calcFrm: TcalcFrm;
   visor: String = '';
   units: array of String;
-  ops : array of char;
-  nums: array of Integer;
+  num1: Double;
+  num2: Double;
+  re: Double;
+  reStr: String;
   msg: String;
 
 implementation
@@ -77,6 +81,26 @@ begin
       msg := visor + num;
 
     Result := msg;
+end;
+
+function sum(num1, num2: Double) : Double;
+begin
+       Result := num1 + num2;
+end;
+
+function minus(num1, num2: Double) : Double;
+begin
+       Result := num1 - num2;
+end;
+
+function  mult(num1, num2: Double) : Double;
+begin
+       Result := num1 * num2;
+end;
+
+function divi(num1, num2: Double) : Double;
+begin
+       Result := num1 / num2;
 end;
 
 procedure TcalcFrm.nbtn0CLick (Sender : TObject);
@@ -170,17 +194,35 @@ begin
      Label1.Caption := visor;
 end;
 
+procedure TcalcFrm.nbtn10Click(Sender: TObject);
+begin
+     visor := changeVisor(nbtn10.Caption);
+     Label1.Caption := visor;
+end;
+
 procedure TcalcFrm.dobtnClick(Sender: TObject);
 begin
 
      units := visor.Split(' ');
+     num1 := StrToFloat(units[0]);
+     num2 := StrToFloat(units[2]);
+
      if (visor = '') then
      begin
        ShowMessage('Digite algum valor válido');
        Exit;
      end;
 
-     ShowMessage('O primeiro número é ' + units[0] + ' O segundo número é ' + units[2]);
+     case units[1] of
+     '+': re := sum(num1, num2);
+     '-': re := minus(num1,num2);
+     '*': re := mult(num1, num2);
+     '/': re := divi(num1, num2);
+    end;
+
+     reStr := FloatToStr(re);
+     visor := reStr;
+     Label1.Caption := visor;
 end;
 end.
 
