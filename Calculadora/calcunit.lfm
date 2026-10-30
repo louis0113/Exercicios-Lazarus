@@ -19,7 +19,7 @@ object calcFrm: TcalcFrm
     ParentColor = False
     TabOrder = 0
     object nbtn1: TButton
-      Left = 57
+      Left = 16
       Height = 49
       Top = 80
       Width = 55
@@ -28,27 +28,27 @@ object calcFrm: TcalcFrm
       OnClick = nbtn1Click
     end
     object nbtn2: TButton
-      Left = 120
+      Left = 88
       Height = 49
       Top = 80
-      Width = 52
+      Width = 56
       Caption = '2'
       TabOrder = 1
       OnClick = nbtn2Click
     end
     object nbtn3: TButton
-      Left = 179
+      Left = 160
       Height = 49
       Top = 80
-      Width = 52
+      Width = 56
       Caption = '3'
       TabOrder = 2
       OnClick = nbtn3Click
     end
     object opbtn1: TButton
-      Left = 248
+      Left = 240
       Height = 32
-      Top = 128
+      Top = 136
       Width = 56
       Caption = '+'
       Font.Height = -15
@@ -59,81 +59,81 @@ object calcFrm: TcalcFrm
       OnClick = optbtn1Click
     end
     object opbtn2: TButton
-      Left = 248
+      Left = 240
       Height = 33
-      Top = 176
+      Top = 184
       Width = 56
       Caption = '-'
       TabOrder = 4
       OnClick = optbtn2Click
     end
     object nbtn4: TButton
-      Left = 56
+      Left = 16
       Height = 49
-      Top = 136
+      Top = 144
       Width = 56
       Caption = '4'
       TabOrder = 5
       OnClick = nbtn4Click
     end
     object nbtn5: TButton
-      Left = 120
+      Left = 88
       Height = 49
-      Top = 136
-      Width = 52
+      Top = 144
+      Width = 56
       Caption = '5'
       TabOrder = 6
       OnClick = nbtn5Click
     end
     object nbtn6: TButton
-      Left = 179
+      Left = 160
       Height = 50
-      Top = 136
-      Width = 50
+      Top = 144
+      Width = 58
       Caption = '6'
       TabOrder = 7
       OnClick = nbtn6Click
     end
     object nbtn7: TButton
-      Left = 56
+      Left = 16
       Height = 49
-      Top = 197
+      Top = 208
       Width = 56
       Caption = '7'
       TabOrder = 8
       OnClick = nbtn7Click
     end
     object nbtn8: TButton
-      Left = 120
+      Left = 88
       Height = 49
-      Top = 197
-      Width = 52
+      Top = 208
+      Width = 56
       Caption = '8'
       TabOrder = 9
       OnClick = nbtn8Click
     end
     object nbtn9: TButton
-      Left = 179
+      Left = 160
       Height = 49
-      Top = 197
-      Width = 51
+      Top = 208
+      Width = 58
       Caption = '9'
       TabOrder = 10
       OnClick = nbtn9Click
     end
     object opbtn3: TButton
-      Left = 248
+      Left = 240
       Height = 33
-      Top = 224
+      Top = 232
       Width = 56
       Caption = '*'
       TabOrder = 11
       OnClick = optbtn3Click
     end
     object opbtn4: TButton
-      Left = 248
+      Left = 240
       Height = 33
-      Top = 272
+      Top = 280
       Width = 56
       Caption = '/'
       TabOrder = 12
@@ -164,27 +164,27 @@ object calcFrm: TcalcFrm
       end
     end
     object dobtn: TButton
-      Left = 57
+      Left = 16
       Height = 49
-      Top = 256
+      Top = 272
       Width = 56
-      Caption = 'ok'
+      Caption = 'OK'
       TabOrder = 14
       OnClick = dobtnClick
     end
     object nbtn0: TButton
-      Left = 179
+      Left = 160
       Height = 49
-      Top = 256
-      Width = 53
+      Top = 272
+      Width = 58
       Caption = '0'
       TabOrder = 15
       OnClick = nbtn0Click
     end
     object opbtn5: TButton
-      Left = 248
+      Left = 240
       Height = 32
-      Top = 80
+      Top = 88
       Width = 56
       Caption = 'CE'
       Font.Height = -15
@@ -196,10 +196,10 @@ object calcFrm: TcalcFrm
     end
   end
   object nbtn10: TButton
-    Left = 120
+    Left = 88
     Height = 49
-    Top = 264
-    Width = 48
+    Top = 280
+    Width = 56
     Caption = '.'
     TabOrder = 1
     OnClick = nbtn0Click

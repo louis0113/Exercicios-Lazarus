@@ -116,7 +116,7 @@ object calcFrm: TcalcFrm
       Left = 179
       Height = 49
       Top = 197
-      Width = 53
+      Width = 51
       Caption = '9'
       TabOrder = 10
       OnClick = nbtn9Click
